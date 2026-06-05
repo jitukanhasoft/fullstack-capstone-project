@@ -1,0 +1,43 @@
+/* Task 1: Style the search input field */
+.search-input {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border: 1px solid #ced4da;
+    padding: 10px 20px;
+}
+
+/* Task 2: Style the search button */
+.search-button {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+    color: white;
+}
+
+/* Task 3: Customize dropdown filters */
+.dropdown-filter {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+}
+
+/* Task 4: Style the age range slider */
+.age-range-slider {
+    margin-top: 10px;
+    height: 8px;
+    border-radius: 5px;
+}
+
+/* Task 5: Enhance search results cards appearance */
+.search-results-card {
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-results-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
