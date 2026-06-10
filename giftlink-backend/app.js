@@ -53,8 +53,8 @@ app.use((err, req, res, next) => {
 
 app.get("/api/health",(req,res)=>{
     logger.info('Server is running');
-    res.status(200).json({status: "ok"})
-})
+    res.status(200).json({status: "ok"});
+});
 
 app.listen(port, () => {
     logger.info(`Server running on port ${port}`);
