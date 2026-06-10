@@ -10,7 +10,9 @@ jobs:
   lint_js:
       name: Lint JavaScript Files
       runs-on: ubuntu-latest
-
+      env:
+        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Add this line
+        
       steps:
       - name: Checkout Repository
         uses: actions/checkout@v4  # Updated from v3 to v4
@@ -34,7 +36,9 @@ jobs:
   client_build:
       name: Build client
       runs-on: ubuntu-latest
-
+      env:
+        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Add this line
+        
       steps:
       - name: Checkout Repository
         uses: actions/checkout@v4  # Updated from v3 to v4
