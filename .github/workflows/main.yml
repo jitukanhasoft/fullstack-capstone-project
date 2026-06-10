@@ -15,10 +15,10 @@ jobs:
         
       steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5  # Updated from v3 to v4
+        uses: actions/checkout@v5  # Updated from v3 to v5
 
       - name: Install Node.js
-        uses: actions/setup-node@v5  # Updated from v3 to v4
+        uses: actions/setup-node@v5  # Updated from v3 to v5
         with:
           node-version: 24  # Consider updating from 14 to 18 or 20 (Node.js 14 is EOL)
 
@@ -41,10 +41,10 @@ jobs:
         
       steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5  # Updated from v3 to v4
+        uses: actions/checkout@v5  # Updated from v3 to v5
 
       - name: Install Node.js
-        uses: actions/setup-node@v5  # Updated from v3 to v4
+        uses: actions/setup-node@v5  # Updated from v3 to v5
         with:
           node-version: 24  # Consider updating from 14 to 18 or 20
 
